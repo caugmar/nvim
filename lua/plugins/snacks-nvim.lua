@@ -7,7 +7,7 @@ return {
           pick = function(cmd, opts)
             return LazyVim.pick(cmd, opts)()
           end,
-          header = [[     L a z y V i m      ]],
+          header = [[  Maybe that's the real punk rock.  ]],
                     -- stylua: ignore
                     ---@type snacks.dashboard.Item[]
                     keys = {
