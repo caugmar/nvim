@@ -9,7 +9,7 @@ vim.opt.spelllang = "pt_br"
 if vim.g.neovide then
   vim.opt.linespace = 5
   vim.o.guifont = "FiraCode Nerd Font:h12"
-  vim.g.neovide_fullscreen = true
+  -- vim.g.neovide_fullscreen = true
 end
 vim.filetype.add({
   filename = {
