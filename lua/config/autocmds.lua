@@ -11,3 +11,10 @@ vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
   pattern = { "*.tcss" },
   command = "set filetype=css",
 })
+
+-- Garante que arquivos .hx sejam tratados como 'haxe'
+vim.filetype.add({
+  extension = {
+    hx = "haxe",
+  },
+})
