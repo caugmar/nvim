@@ -18,3 +18,9 @@ vim.filetype.add({
     hx = "haxe",
   },
 })
+
+vim.filetype.add({
+  extension = {
+    lpy = "clojure",
+  },
+})
